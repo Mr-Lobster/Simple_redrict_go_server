@@ -2,7 +2,7 @@
 
 ## 简介
 
-### 使用golang进行编写的服务器，支持将长Url转换为短Url，且在请求短Url时，通过映射重定向到长Url
+### 使用golang进行编写的服务器。功能：支持将长Url转换为短Url，且在请求短Url时，通过映射重定向到长Url。通过gob包使用本地存储，且在v2版本中通过rpc使得slave服务器缓解master的redirect请求压力。
 
 ## 运行与调试
 
